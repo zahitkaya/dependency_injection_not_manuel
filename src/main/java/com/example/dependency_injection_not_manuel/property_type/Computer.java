@@ -1,7 +1,8 @@
 package com.example.dependency_injection_not_manuel.property_type;
 
-import com.example.dependency_injection_not_manuel.constructor_type.IEngine;
+import com.example.dependency_injection_not_manuel.IEngine;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
